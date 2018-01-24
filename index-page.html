@@ -1,0 +1,765 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css"> 	
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MOTOR BIKES</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#">New Bikes</a></li>
+            <li><a href="#">Spare Parts</a></li>
+            <li><a href="#">Repairs</a></li>
+            
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/four.jpg" alt="Los Angeles" class="img-responsive">
+        <!-- <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div> -->
+      </div>
+
+      <div class="item">
+        <img src="images/three.jpg" alt="Chicago" class="img-responsive">
+        <!-- <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div> -->
+      </div>
+    
+      <div class="item">
+        <img src="images/four.jpg" alt="New York" class="img-responsive">
+        <!-- <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div> -->
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container-fluid">
+  <div class="row bike-thiks">
+  <div class="col-md-3 ">
+<div class="box-1">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal1">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+ </div> 	
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-2">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal2">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3">
+  <div class="box-3">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal3">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-4">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal4">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal4" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  	
+  </div>
+  	
+  </div>
+   <div class="container-fluid">
+  <div class="row bike-thiks">
+  <div class="col-md-3 ">
+<div class="box-1">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal5">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal5" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+ </div> 	
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-2">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal6">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal6" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3">
+  <div class="box-3">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal7">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal7" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-4">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal12">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal12" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  	
+  </div>
+  	
+  </div>
+   <div class="container-fluid">
+  <div class="row bike-thiks">
+  <div class="col-md-3 ">
+<div class="box-1">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal8">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal8" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+ </div> 	
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-2">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal9">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal9" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3">
+  <div class="box-3">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal10">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal10" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+  	</div>
+  </div>
+  <div class="col-md-3 ">
+  <div class="box-4">
+  	<img src="images/glowse.jpg" class="img-responsive1" style="">
+  	<p class="text-center">one tw</p>
+  	<p class="text-center">Rs.100/-</p>
+  	<button class="btn btn-default quick-btn" data-toggle="modal" data-target="#myModal11">QUICK VIEW</button>
+
+  	<!--################-->
+
+  	<!-- Modal -->
+<div id="myModal11" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- <h4 class="modal-title">Modal Header</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+        <div class="row">
+        	<div class="col-md-6 col-xs-4">
+        		<img src="images/glowse.jpg" alt="" class="img-responsive">
+        	</div>
+        	<div class="col-md-6 col-xs-8">
+        		
+        		<label>Item Name cote</label>
+        		<p>Rs. 11111/-</p>
+        		<hr>
+        		<select class="selectpicker" >
+				  <option>Large</option>
+				  <option>Medium</option>
+				  <option>Small</option>
+				</select>
+        		<button class="btn btn-default add-cart">ADD TO CART</button>
+        		<hr>
+        		<p>Materials 100% genuine oil pull-up leather with canvas Features 5 Compartments for carrying your tools, gadgets and your toiletries Royal Enfield leather badging in the front Top hook to hang... </p>
+        	</div>
+        </div>
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  	<!--###########-->
+
+  	</div>
+  </div>
+  	
+  </div>
+  	
+  </div>
+
+
+</body>
+</html>
