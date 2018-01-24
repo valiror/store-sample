@@ -1,5 +1,6 @@
 *{padding: 0px;margin: 0px;}
 .bike-thiks{padding: 10px 10px;}
+.bike-thiks h2{padding: 10px 10px; text-align: center;font-size: 25px;color: #;font-weight: bolder;}
 .box-1{padding: 10px 10px;  }
 .box-2{padding: 10px 10px;  }
 .box-3{padding: 10px 10px;  }
@@ -27,7 +28,10 @@
 .add-cart{color: #fff;background-color: red;margin-left: 0%;border: none;}
 .add-cart:hover{color: #fff;background-color: red;margin-left: 0%;border: none;}
 .add-cart:active{color: #fff;background-color: red;margin-left: 0%;border: none;}
-
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;}
 
 /* ########Responsive css ##########*/
 
