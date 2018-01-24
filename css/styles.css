@@ -21,6 +21,11 @@
 .box-3:hover{box-shadow: 1px 1px 1px 1px #ccc;}
 .box-4:hover{box-shadow: 1px 1px 1px 1px #ccc;}
 
+.box-1 p{font-weight: bold;}
+.box-2 p{font-weight: bold;}
+.box-3 p{font-weight: bold;}
+.box-4 p{font-weight: bold;}
+
 .quick-btn{color: #fff;background-color: green;margin-left: 30%;}
 .quick-btn:hover{color: #fff;background-color: green;margin-left: 30%;}
 .quick-btn:active{color: #fff;background-color: green;margin-left: 30%;}
@@ -32,7 +37,10 @@
     position: relative;
     min-height: 50px;
     margin-bottom: 0px;}
-
+.btn-close{    background-color: red !important;    padding: 3px 10px !important;    margin-top: -13px !important;
+}
+.btn-close:hover{    background-color: red !important;    padding: 3px 10px !important;    margin-top: -13px !important;
+}
 /* ########Responsive css ##########*/
 
 @media only screen and (min-width: 320px){
@@ -42,7 +50,14 @@
 
 }
 @media only screen and (min-width: 768px){
+.box-1 img{ width: 70%;height: auto; }
+.box-2 img{ width: 70%;height: auto; }
+.box-3 img{ width: 70%;height: auto; }
+.box-4 img{ width: 70%;height: auto; }
 
+.quick-btn{color: #fff;background-color: green;margin-left: 41%;}
+.quick-btn:hover{color: #fff;background-color: green;margin-left: 41%;}
+.quick-btn:active{color: #fff;background-color: green;margin-left: 41%;}
 }
 @media only screen and (min-width: 992px){
 
